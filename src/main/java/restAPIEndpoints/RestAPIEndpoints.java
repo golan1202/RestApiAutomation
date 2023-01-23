@@ -12,7 +12,7 @@ public class RestAPIEndpoints extends RestAPI {
     private static final String  employeesEndPoint = "employees";
     private static final String  employeeEndPoint = "employee/";
     private static final String  createEndPoint = "create";
-    Retry retry;
+
 
     public RestAPIEndpoints() {
         super(baseURL);
