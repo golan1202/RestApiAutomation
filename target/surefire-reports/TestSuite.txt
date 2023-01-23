@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.22 s <<< FAILURE! - in TestSuite
+testExample(Tests.ApiTest)  Time elapsed: 2.247 s  <<< FAILURE!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at Tests.ApiTest.testExample(ApiTest.java:23)
+

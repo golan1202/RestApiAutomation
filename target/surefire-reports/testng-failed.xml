@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [API_Testing_Automation]" verbose="0">
+  <listeners>
+    <listener class-name="listeners.TestStatusListener"/>
+  </listeners>
+  <test thread-count="5" name="RestAPITests(failed)" verbose="0">
+    <classes>
+      <class name="Tests.ApiTest">
+        <methods>
+          <include name="testExample" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Tests.ApiTest -->
+    </classes>
+  </test> <!-- RestAPITests(failed) -->
+</suite> <!-- Failed suite [API_Testing_Automation] -->
